@@ -1,4 +1,4 @@
-if TERMINFO=$(y7locate terminfo "$TERMINFO" dot data config)
+if TERMINFO=$(y7sublocate terminfo '' "$TERMINFO" dot data config)
 then
     export TERMINFO
 fi
